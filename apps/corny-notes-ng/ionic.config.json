@@ -1,0 +1,7 @@
+{
+  "name": "corny-notes-ng",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
