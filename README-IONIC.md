@@ -8,7 +8,15 @@
 ### Android
 `npm i`
 
+Only first time:
+
 `nx run corny-notes-ng:add:android`
+
+Build and sync:
+
+`nx run corny-notes-ng:build`
+
+`nx run corny-notes-ng:sync:android`
 
 To run in android-studio:
 

@@ -1,0 +1,17 @@
+<ng-container *ngIf="viewReady">
+  <form [formGroup]="noteForm">
+    <ion-input formControlName="title"
+               placeholder="Title"
+               maxlength="20" text-start
+    ></ion-input>
+    <ion-textarea formControlName="content"
+                  placeholder="Today I learned..."
+                  autoGrow="true">
+    </ion-textarea>
+  </form>
+  <ion-footer class="ion-text-end">
+    <ion-button (click)="close(false)">save</ion-button>
+    <ion-button color="danger" (click)="close(true)">cancel</ion-button>
+  </ion-footer>
+</ng-container>
+

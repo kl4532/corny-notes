@@ -1,0 +1,9 @@
+<ion-card #card [ngClass]="{'selected': isSelected}">
+  <ion-card-header>
+    <ion-card-subtitle>{{ date | date: 'short' }}</ion-card-subtitle>
+    <ion-card-title>{{ title }}</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    {{ content }}
+  </ion-card-content>
+</ion-card>
