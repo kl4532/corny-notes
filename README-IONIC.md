@@ -1,8 +1,10 @@
 ## Build
+`nx build corny-notes-ng`
 
 ### Web
 `npm i`
 
+`nx run corny-notes-ng:add:android`
 `nx run corny-notes-ng:build`
 
 ### Android
