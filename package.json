@@ -20,6 +20,8 @@
     "@angular/router": "^12.2.0",
     "@capacitor/core": "^3.2.5",
     "@ionic/angular": "^5.8.3",
+    "cordova-res": "^0.15.3",
+    "native-run": "^1.5.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
