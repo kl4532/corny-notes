@@ -8,6 +8,7 @@ import { Note } from '../../pages/notes/notes.page';
   providedIn: 'root',
 })
 export class StorageService {
+  //test
   private noteState: NoteState = {
     title: '',
     content: ''
