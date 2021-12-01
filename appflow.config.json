@@ -6,7 +6,7 @@
       "root": "apps/corny-notes-ng",
       "webBuildCommand": "nx build corny-notes-ng",
       "webDir": "../../dist/apps/corny-notes-ng",
-      "dependencyInstallCommand": "cd ../.. npm install"
+      "dependencyInstallCommand": "cd ../.. && npm install"
     }
   ]
 }
