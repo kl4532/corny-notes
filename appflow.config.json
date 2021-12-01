@@ -4,7 +4,7 @@
     {
       "appId": "4fd21297",
       "root": "apps/corny-notes-ng",
-      "webBuildCommand": "cd ../.. && nx build corny-notes-ng",
+      "webBuildCommand": "cd ../.. && npm run appflow:build",
       "webDir": "../../dist/apps/corny-notes-ng",
       "dependencyInstallCommand": "cd ../.. && npm install"
     }
