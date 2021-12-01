@@ -1,10 +1,6 @@
 {
-  "apps":
-  [
-    {
-      "appId": "io.ionic.starter",
-      "root": "apps/corny-notes-ng",
-      "webBuildCommand": "nx build corny-notes-ng"
-    }
-  ]
+  "appId": "io.ionic.starter",
+  "root": "apps/corny-notes-ng",
+  "webBuildCommand": "nx build corny-notes-ng",
+  "webDir": "../../dist/apps/corny-notes-ng"
 }
